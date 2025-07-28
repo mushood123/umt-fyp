@@ -1,0 +1,7 @@
+quickfix-managing-server/serviceAccount/quickfix-sa.json
+
+# Sensitive files
+*.env
+**/serviceAccount/*.json
+**/google-services.json
+**/GoogleService-Info.plist
