@@ -1,0 +1,127 @@
+.admin-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f7fb;
+    margin-top: 80px;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .addAdmin-btn {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background: #7d4bc9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 170px;
+    height: 40px;
+  }
+  
+  .addAdmin-btn:hover {
+    background: #5b2c82;
+    transform: scale(1.05);
+  }
+
+  .btn-search{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-table th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-table th {
+    background-color: #6d6ba7;
+    color: white;
+    font-size: 1rem;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .admin-table td {
+    color: #555;
+  }
+  
+  .admin-table td img {
+    border-radius: 50%;
+  }
+  
+  .admin-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .admin-table td a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .admin-table td a:hover {
+    text-decoration: underline;
+  }
+  
+.adminDelete-icon{
+    color: red;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.adminEdit-icon{
+    width: 30px;
+    height: 30px;
+}
+ 
+
+  .action{
+    display: flex;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .admin-table {
+      font-size: 0.9rem;
+    }
+  
+    .admin-table th, td {
+      padding: 10px;
+    }
+  
+    .admin-table td img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .admin-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .adminDelete-btn{
+      font-size: 0.8rem;
+      padding: 8px 16px;
+    }
+  }
+  

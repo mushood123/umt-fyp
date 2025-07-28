@@ -1,0 +1,132 @@
+.technician-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f7fc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  margin-top: 80px;
+}
+
+.technician-container h1 {
+  text-align: center;
+  color: #5b2c82;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.addTechnician-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  background: #7d4bc9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 170px;
+  height: 40px;
+}
+
+.addTechnician-btn:hover {
+  background: #5b2c82;
+  transform: scale(1.05);
+}
+
+.btn-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.technician-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.technician-table thead {
+  background: #6d6ba7;
+  color: #fff;
+}
+
+.technician-table th,
+.technician-table td {
+  text-align: left;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+.technician-table th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.technician-table tbody tr:nth-child(even) {
+  background: #f3edf9;
+}
+
+.technician-table tbody tr:hover {
+  background: #e6dbf5;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.technicianEdit-icon {
+  font-size: 30px;
+  color: #5b2c82;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.technicianEdit-icon:hover {
+  color: #7d4bc9;
+  transform: scale(1.2);
+}
+
+.technicianDelete-icon {
+  font-size: 30px;
+  color: #b32d48;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.technicianDelete-icon:hover {
+  color: #ff5f71;
+  transform: scale(1.2);
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .technician-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .addTechnician-btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .technician-table th,
+  .technician-table td {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}
+
+.spinner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}

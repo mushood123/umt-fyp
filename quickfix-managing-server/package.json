@@ -1,0 +1,32 @@
+{
+  "name": "quickfix-server",
+  "version": "1.0.1",
+  "description": "It is quickFix official server",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^7.1.0",
+    "@google-cloud/dialogflow-cx": "^5.2.0",
+    "@google/generative-ai": "^0.24.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "expo-server-sdk": "^3.10.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "firebase-admin": "^13.4.0",
+    "mongoose": "^8.8.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.0",
+    "oauth2client": "^1.0.0",
+    "redis": "^4.7.0",
+    "socket.io": "^4.7.5"
+  }
+}

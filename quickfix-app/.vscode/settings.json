@@ -1,0 +1,56 @@
+// {
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": "explicit"
+//     },
+//     "eslint.validate": ["javascript"]
+//   }
+// {
+//    "eslint.validate": [
+//       "javascript",
+//       "javascriptreact"
+//    ],
+//    "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": true
+//    },
+//    "editor.defaultFormatter": "esbenp.prettier-vscode",
+//    "editor.formatOnSave": true
+// }
+
+// {
+//    "eslint.validate": ["javascript", "javascriptreact"],
+//    "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": true
+//    },
+//    "editor.defaultFormatter": "esbenp.prettier-vscode",
+//    "editor.formatOnSave": true,
+//    "editor.tabSize": 2,
+//    "editor.insertSpaces": true,
+//    "editor.detectIndentation": false,
+//    "javascript.preferences.quoteStyle": "single",
+//    "typescript.preferences.quoteStyle": "single"
+// }
+
+// {
+//    "eslint.validate": ["javascript", "javascriptreact"],
+//    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+//    "editor.defaultFormatter": "esbenp.prettier-vscode",
+//    "editor.formatOnSave": true,
+//    "editor.tabSize": 3,
+//    "editor.insertSpaces": true,
+//    "editor.detectIndentation": false,
+//    "javascript.preferences.quoteStyle": "single",
+//    "typescript.preferences.quoteStyle": "single"
+// }
+{
+   "eslint.validate": ["javascript", "javascriptreact"],
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+   },
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.formatOnSave": true,
+   "editor.tabSize": 3,
+   "editor.insertSpaces": true,
+   "editor.detectIndentation": false,
+   "javascript.preferences.quoteStyle": "single",
+   "typescript.preferences.quoteStyle": "single"
+}

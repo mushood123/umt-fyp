@@ -1,0 +1,12 @@
+export { SvgAc } from './svgAc';
+export { SvgDrainage } from './svgDrainage';
+export { SvgElectrician } from './svgElectrician';
+export { SvgPlumbering } from './svgPlumbering';
+export { SvgHome } from './svgHome';
+export { SvgRequests } from './svgRequests';
+export { SvgPackage } from './svgPackage';
+export { SvgMessages } from './svgMessages';
+export { SvgHistory } from './svgHistory';
+export { SvgPending } from './svgPending';
+export { SvgNotifications } from './svgNotifications';
+export { SvgProfile } from './svgProfile';

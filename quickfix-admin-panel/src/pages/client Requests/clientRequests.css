@@ -1,0 +1,162 @@
+.client-requests-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .page-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    margin: 10px auto;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex: 1;
+  }
+  
+  .search-bar button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .search-bar button i {
+    color: #888;
+  }
+  
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  tr, th{
+    font-size: 10px;
+  }
+
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+  }
+  
+  th {
+    background-color: #6d6ba7;
+    color: white;
+  }
+  
+  td {
+    color: #888282;
+    font-size: 14px;
+  }
+  
+  .status {
+    color: blue;
+  }
+  
+  .assigned {
+    color: red;
+  }
+  
+  .cost {
+    color: green;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .assign-task-btn {
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .assign-task-btn:hover {
+    color: #0056b3;
+  }
+
+  /* Status and Assignment Styles */
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.status-assigned {
+  background-color: #cce5ff;
+  color: #004085;
+  border: 1px solid #b8daff;
+}
+
+.status-completed {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.technician-name {
+  padding: 4px 10px;
+  border-radius: 4px;
+  background-color: #e2e8f0;
+  color: #2d3748;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.not-assigned {
+  background-color: #fed7d7;
+  color: #c53030;
+}

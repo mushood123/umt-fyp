@@ -1,0 +1,198 @@
+/* eslint-disable react-native/no-color-literals */
+import { Dimensions, StyleSheet } from 'react-native';
+
+const { width } = Dimensions.get('window');
+
+export const styles = StyleSheet.create({
+   modalOverlay: {
+      flex: 1,
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      justifyContent: 'center',
+      alignItems: 'center',
+   },
+   modalContainer: {
+      width: width * 0.9,
+      maxWidth: 500,
+      backgroundColor: 'white',
+      borderRadius: 16,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.25,
+      shadowRadius: 16,
+      elevation: 8,
+      overflow: 'hidden',
+   },
+   modalHeader: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingHorizontal: 20,
+      paddingVertical: 16,
+      borderBottomWidth: 1,
+      borderBottomColor: '#f0f0f0',
+   },
+   modalTitle: {
+      fontSize: 18,
+      fontWeight: '600',
+      color: '#333',
+   },
+   closeButton: {
+      height: 36,
+      width: 36,
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderRadius: 18,
+   },
+   closeButtonText: {
+      fontSize: 16,
+      color: '#333',
+      fontWeight: '500',
+   },
+   contentContainer: {
+      padding: 20,
+   },
+   headerRow: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'flex-start',
+      marginBottom: 20,
+   },
+   title: {
+      fontSize: 20,
+      fontWeight: '700',
+      color: '#212121',
+      flex: 1,
+      marginRight: 10,
+   },
+   statusBadge: {
+      paddingVertical: 4,
+      paddingHorizontal: 12,
+      borderRadius: 20,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginTop: 4,
+   },
+   statusText: {
+      color: 'white',
+      fontSize: 12,
+      fontWeight: '600',
+      textTransform: 'uppercase',
+   },
+   sectionLabel: {
+      fontSize: 16,
+      fontWeight: '600',
+      color: '#424242',
+      marginBottom: 8,
+   },
+   description: {
+      fontSize: 15,
+      color: '#424242',
+      lineHeight: 22,
+   },
+   modalFooter: {
+      flexDirection: 'row',
+      justifyContent: 'flex-end',
+      padding: 16,
+      borderTopWidth: 1,
+      borderTopColor: '#f0f0f0',
+   },
+   footerButton: {
+      paddingVertical: 10,
+      paddingHorizontal: 16,
+      borderRadius: 8,
+      marginLeft: 12,
+      minWidth: 100,
+      alignItems: 'center',
+   },
+   primaryButton: {
+      backgroundColor: '#2196F3',
+   },
+   primaryButtonText: {
+      color: 'white',
+      fontWeight: '600',
+      fontSize: 14,
+   },
+   secondaryButton: {
+      backgroundColor: '#f5f5f5',
+   },
+   secondaryButtonText: {
+      color: '#757575',
+      fontWeight: '600',
+      fontSize: 14,
+   },
+   dangerButton: {
+      backgroundColor: '#FF4444',
+      borderColor: '#FF4444',
+   },
+   dangerButtonText: {
+      color: '#FFFFFF',
+      fontSize: 16,
+      fontWeight: '600',
+   },
+   detailSection: {
+      marginVertical: 12,
+      paddingVertical: 8,
+      borderBottomWidth: 1,
+      borderBottomColor: '#eee',
+   },
+   sectionTitle: {
+      fontSize: 16,
+      fontWeight: '600',
+      color: '#333',
+      marginBottom: 8,
+   },
+   detailText: {
+      fontSize: 14,
+      color: '#666',
+      marginBottom: 4,
+   },
+   locationButton: {
+      marginTop: 8,
+      padding: 8,
+      backgroundColor: '#f0f0f0',
+      borderRadius: 8,
+   },
+   locationText: {
+      color: '#007AFF',
+      textAlign: 'center',
+   },
+   remarksModalContainer: {
+      backgroundColor: '#fff',
+      borderRadius: 16,
+      padding: 20,
+      width: '90%',
+      maxWidth: 400,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.25,
+      shadowRadius: 4,
+      elevation: 5,
+   },
+   remarksTitle: {
+      fontSize: 18,
+      fontWeight: '600',
+      marginBottom: 16,
+      color: '#333',
+   },
+   remarksInput: {
+      borderWidth: 1,
+      borderColor: '#ddd',
+      borderRadius: 8,
+      padding: 12,
+      marginBottom: 16,
+      minHeight: 100,
+      textAlignVertical: 'top',
+   },
+   remarksButtons: {
+      flexDirection: 'row',
+      justifyContent: 'flex-end',
+      gap: 12,
+   },
+   remarksButton: {
+      paddingVertical: 8,
+      paddingHorizontal: 16,
+      borderRadius: 8,
+      minWidth: 80,
+      alignItems: 'center',
+   },
+});

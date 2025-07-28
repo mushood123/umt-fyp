@@ -1,0 +1,52 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  flex: 1;
+  background-color: #f0f2f5;
+   padding: 20px; 
+}
+
+
+
+ .app-layout {
+  display: flex;
+  height: 100vh; 
+}
+
+.sidebar {
+  width: 250px; 
+  transition: width 0.3s;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar.closed {
+  width: 60px; 
+}
+
+.sidebar.open .icon, .sidebar.open .sidebar-item {
+  display: inline-block;
+}
+
+.sidebar.closed .sidebar-title, .sidebar.closed .icon {
+  display: none;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+   right: -20px; 
+  z-index: 1;
+} 
+
+
+
+

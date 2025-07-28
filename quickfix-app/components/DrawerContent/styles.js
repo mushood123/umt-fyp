@@ -1,0 +1,107 @@
+/* eslint-disable react-native/no-color-literals */
+import { StyleSheet, Platform, Dimensions } from 'react-native';
+import { colors } from '../../themes';
+
+const { width } = Dimensions.get('window');
+
+export const styles = StyleSheet.create({
+   container: {
+      flex: 1,
+      backgroundColor: colors.background,
+   },
+   profilePicContainer: {
+      height: 220,
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingTop: Platform.OS === 'ios' ? 40 : 20,
+   },
+   profilePicWrapper: {
+      height: 90,
+      width: 90,
+      borderRadius: 45,
+      padding: 3,
+      backgroundColor: 'rgba(255, 255, 255, 0.25)',
+      alignItems: 'center',
+      justifyContent: 'center',
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.1,
+      shadowRadius: 6,
+      elevation: 3,
+   },
+   profilePic: {
+      height: 84,
+      width: 84,
+      backgroundColor: colors.cardBg,
+      borderRadius: 42,
+      borderWidth: 2,
+      borderColor: '#FFFFFF',
+   },
+   userName: {
+      color: '#fff',
+      fontSize: 18,
+      fontWeight: '600',
+      marginTop: 12,
+      letterSpacing: 0.3,
+   },
+   contentContainer: {
+      flex: 1,
+      backgroundColor: colors.background,
+      borderTopLeftRadius: 24,
+      borderTopRightRadius: 24,
+      marginTop: -20,
+      paddingHorizontal: 16,
+      justifyContent: 'space-between',
+      paddingBottom: 20,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: -3 },
+      shadowOpacity: 0.05,
+      shadowRadius: 8,
+      elevation: 5,
+   },
+   menuContainer: {
+      marginTop: 24,
+   },
+   buttonStyle: {
+      marginVertical: 6,
+      height: 52,
+      borderRadius: 12,
+      backgroundColor: colors.cardBg,
+      shadowColor: colors.primary,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.08,
+      shadowRadius: 4,
+      elevation: 2,
+      borderWidth: 1,
+      borderColor: colors.border,
+   },
+   textStyle: {
+      color: colors.text,
+      fontWeight: '500',
+      fontSize: 16,
+   },
+   logoutButton: {
+      marginTop: 'auto',
+      marginBottom: 20,
+      borderRadius: 12,
+      overflow: 'hidden',
+      shadowColor: colors.accent,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.2,
+      shadowRadius: 5,
+      elevation: 4,
+   },
+   logoutGradient: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingVertical: 14,
+      paddingHorizontal: 20,
+   },
+   logoutText: {
+      color: '#fff',
+      fontWeight: '600',
+      fontSize: 16,
+      letterSpacing: 0.5,
+   },
+});
